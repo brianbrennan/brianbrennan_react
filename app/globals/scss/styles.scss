@@ -1,0 +1,14 @@
+//Third party imports
+@import '../../../node_modules/bootstrap-sass/assets/stylesheets/bootstrap';
+
+//global partials
+@import 'variables';
+@import 'layout';
+@import 'fonts';
+@import 'inputs';
+
+//global components
+@import '../components/main-header/main-header';
+@import '../components/main-nav/main-nav';
+@import '../components/main-footer/main-footer';
+@import '../../home/home';

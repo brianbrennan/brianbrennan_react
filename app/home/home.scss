@@ -1,0 +1,38 @@
+.home-page {
+    .hero {
+
+    }
+
+    .plan-step, .develop-step {
+        * {
+            color: $white;
+        }
+    }
+
+    .plan-step {
+        position: relative;
+    }
+
+    .design-step, .contact-section {
+        padding: $lg 0;
+    }
+
+    .design-step {
+        background: url('../app/globals/assets/img/linedpaper.png');
+    }
+
+    .contact-section {
+        text-align: center;align-content: center;
+
+        img {
+            width: 50%;
+            display: block;
+            margin: auto;
+        }
+
+        .red-button {
+            display: block;
+            margin: $sm auto $lg auto;
+        }
+    }
+}
